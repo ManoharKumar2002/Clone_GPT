@@ -9,7 +9,7 @@ const apiKey = 'AIzaSyBW4FMooGK8mBkYJezk5wtQ1TAVdO1iYN4'; // Replace with your a
 
 // process 
 const genAI = new GoogleGenerativeAI(apiKey);
-const prompt = "Explain the frontend development";
+const prompt = "Explain how AI work";    // tsdfgopgsddgope;dpgdaoweoriefest gemini using prompt 
 
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
 
@@ -27,23 +27,6 @@ app.get("/gemini" , async (req , res) =>{
     res.status(404).json(error);
   }
 })
-
-
-// app.post("/gemini" , async (req , res) =>{
-//   try {
-//     const {prompt} = req.body ;
-//     const result = await model.generateContent(prompt);
-//     if(!result){
-//       return res.status(404).json({message : "No get data"});
-//     }
-//     console.log(result.response.text());
-//     return res.status(200).json(result.response.text());
-
-//   } catch (error) {
-//     res.status(404).json(error);
-//   }
-// })
-
 
 app.listen(PORT , (req , res) =>{
   console.log("Server running on PORT : " , PORT);

@@ -6,7 +6,7 @@ Here's a breakdown of key aspects:
 **What Frontend Developers Do:**
 
 * **Design and implement user interfaces (UI):** This involves creating visually appealing and user-friendly layouts, incorporating images, typography, and color schemes. They often work closely with designers to translate design mockups into functional code.
-* **Develop interactive elements:** This includes creating buttons, forms, menus, animations, and other interactive components that enhance the user experience.  They make the website dynamic and responsive to user input.
+* **Develop interactive elements:** This includes creating buttons, forms, menus, animations, and other interactive components that enhance the user experience.  They make the web site dynamic and responsive to user input.
 * **Write clean, efficient, and maintainable code:**  Frontend developers use various programming languages and frameworks to create the website's front-end.  They strive for code that's easy to understand, debug, and modify.
 * **Optimize for performance:**  They ensure the website loads quickly and runs smoothly on different devices and browsers.  This involves techniques like code optimization, image compression, and efficient use of resources.
 * **Ensure cross-browser compatibility:** Websites need to work correctly across different browsers (Chrome, Firefox, Safari, Edge, etc.) and devices (desktops, tablets, smartphones).  Frontend developers test and fix any compatibility issues.
